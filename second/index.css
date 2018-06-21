@@ -1,0 +1,91 @@
+body{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.Top_Container{
+    border: 5px black;
+    border-style: solid;
+    width:95vw;
+    height: 45vh;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+    
+}
+
+.PurpB{
+height: 200px;
+width: 75px;
+background-color:  purple;
+margin-top: 55px;
+margin-left: 20px;
+}
+
+.GreenB{
+height: 235px;
+width: 450px;
+background-color: green;
+margin-top: 20px;
+margin-left: 70px;
+}
+
+.BlueCirc{
+height: 250px;
+width: 250px;
+background-color:rgb(147, 215, 238);
+border-radius: 50%;
+margin-left: 85px;
+
+}
+
+.Mid_Container{
+    border: 5px black;
+    border-style: dotted;
+    width:95vw;
+    height: 45vh;
+    margin-top: 25px;
+    display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.Sticky_Note{
+    background-color: rgb(255, 245, 102);
+    height: 200px;
+    width: 1200px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.Bottom_Container{
+    border: 2px rgb(148, 148, 148);
+    border-style: solid;
+    box-shadow: 5px 5px 5px rgb(114, 114, 114);
+    width:50vw;
+    height: 65vh;
+    margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+ .Hello{
+     font-size: 40px;
+     font-family:serif;
+     font-style: bold;
+     color: #18003f;
+     letter-spacing: 4px;
+ }
