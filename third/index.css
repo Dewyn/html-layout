@@ -1,0 +1,59 @@
+*{
+    margin: 0
+}
+.Parent{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.Grey_Bar{
+    height: 100px;
+    width: 100vw;
+    background-color: #A9A9A9;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+.text{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.Blue_Sqr{
+height: 75px;
+width: 75px;
+background-color: rgb(78, 75, 255);
+margin-left: 25px;
+}
+
+.Blue_Bar{
+    height:100px;
+    width:100vw;
+    background-color: rgb(78, 75, 255);
+}
+
+.Turq_Bar{
+    height:100px;
+    width:100vw;
+    background-color: #3cabc7;
+}
+.Grn_Bar{
+    height:100px;
+    width:100vw;
+    background-color: #ccfd94;
+}
+.Ylw_Bar{
+    height:100px;
+    width:100vw;
+    background-color: #a0d118;
+}
